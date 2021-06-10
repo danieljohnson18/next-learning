@@ -8,11 +8,11 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
-      <h1>Homepage</h1>
-      <p>lorem</p>
-      <p>lorem</p>
+      <h1 className={styles.title}>Homepage</h1>
+      <p className={styles.text}>lorem</p>
+      <p className={styles.text}>lorem</p>
       <Link href="/ninjas">
-        <a>See Ninja Listing</a>
+        <a className={styles.btn}>See Ninja Listing</a>
       </Link>
     </div>
   );
